@@ -1,42 +1,24 @@
 
 
-div{
-    display: inline-block;
+.outer-box{
+    margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
 }
- 
-
-.bl{
-    text-align: center;
-    margin-left: 40%;
-    padding: 30px;
-    background-color: blue;
-    color: white;
-    
-   
+.inner-box{
+height: 200px;
+width: 200px;
+  padding: 20px;
+  background-color: blue;
+  text-align: center;
+  color: white;
 }
-img{
-    text-align: center;
+.center{
+    margin: auto;
 }
-.bl--left{
-    margin-left: 85%;
-    padding: 30px;
-    background-color: blue;
-    text-align: center;
-    color: white;
-   
-
-
+.right{
+    margin-left: auto;
 }
-.bl--right{
-    margin-right:85% ;
-    padding: 30px;
-    background-color: blue;
-    text-align: center;
-    color: white;
-   
-    
-}
-    
 
 
 /* transparent-прозрачный  */
